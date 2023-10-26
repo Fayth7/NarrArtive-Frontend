@@ -1,0 +1,39 @@
+.homepage-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+.homepage-title {
+    font-family: 'Elsie', cursive;
+    font-size: 12rem;
+    margin-bottom: 10px;
+}
+
+.homepage-subtitle {
+    font-family: 'Elsie', cursive;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.join-button {
+    font-family: 'Elsie', cursive;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #9e87a3;
+    /* You can choose your preferred color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.join-button:hover {
+    background-color: #9c21b4;
+    /* Adjust the color on hover */
+}
