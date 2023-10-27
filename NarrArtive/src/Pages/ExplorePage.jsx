@@ -1,12 +1,17 @@
-import MainLayout from '../Layout/MainLayout'; // Import your MainLayout component
+import MainLayout from '../Layout/MainLayout'; 
 import FeaturedStories from '../Components/FeaturedStories';
+import FeaturedArt from '../Components/FeaturedArt';
 
 function ExplorePage() {
   return (
     <MainLayout>
       <div>
         <h2>Explore</h2>
-        <FeaturedStories /> {/* Include the FeaturedStories component here */}
+        <h4>Popular Stories Take the Lead</h4>
+        <FeaturedStories /> 
+        <h3>Featured Art</h3>
+        <h4>A Canvas of Imagination</h4>
+        <FeaturedArt />
         {/* Other sections of your ExplorePage */}
       </div>
     </MainLayout>

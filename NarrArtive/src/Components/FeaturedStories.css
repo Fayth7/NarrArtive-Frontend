@@ -1,0 +1,15 @@
+.featured-stories {
+  /* Add other styles for the section go here */
+
+  display: flex;
+  flex-wrap: wrap; 
+}
+
+.story-grid {
+  /* Define the grid layout with two columns */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 20px; 
+}
+
+
